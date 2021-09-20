@@ -1,7 +1,7 @@
-svar = input("Skriv ett heltal: ")
+svar = input("Skriv ett tal: ")
 
-x = int(svar)
+x = float(svar)
 
 y = x * x
 
-print(f"Talet i kvadrat är {y}")
+print(f"Talet i kvadrat är {y:.2f}")
